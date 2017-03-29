@@ -1,0 +1,81 @@
+/* map css  */
+
+@media(min-width:1020px) {
+    .et_pb_map {
+        height: 470px !important;
+    }
+}
+
+
+/*  50% offer logo css )   */
+
+@media (min-width: 1100px) {
+    .Today-offer-logo {
+        position: absolute;
+        right: 0;
+    }
+}
+
+/*  intro Section css  */
+@media only screen and ( max-width: 430px) {
+    .Intro-section .et_pb_more_button {
+        margin-right: 20% !important;
+    }
+}
+
+/*  Chef Section css    */
+
+@media (min-width: 740px) and (max-width: 1022px) {
+    .Chief_image .et_pb_column.et_pb_column_1_3 {
+        width: 33% !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+/* Meet the chef section styling */
+
+.chef-one .test,
+.chef-two .test,
+.chef-three .test {
+    top: 300px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.chef-one:hover .test,
+.chef-two:hover .test,
+.chef-three:hover .test {
+    opacity: 1;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.chef-one .chefname,
+.chef-two .chefname,
+.chef-three .chefname {
+    opacity: 0;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+    transform-origin: left bottom 0;
+    position: absolute;
+    top: 430px;
+    right: -12px;
+}
+.chef-one:hover .chefname,
+.chef-two:hover .chefname,
+.chef-three:hover .chefname {
+    opacity: 1;
+}
+@media (min-width: 980px) and (max-width: 1080px) {
+    .chefname {
+        font-size: 30px !important;
+    }
+}
